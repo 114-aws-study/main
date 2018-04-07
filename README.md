@@ -5,3 +5,4 @@
 - [일일사 AWS스터디 핸즈온 2018-03-21](doc/20180321_114_aws_study_handson.md)
 - [일일사 AWS스터디 핸즈온 숙제 2018-03-21](doc/20180321_114_aws_study_homework.md)
 - [AWS Web Application 3-Tier Architecture.pdf](https://github.com/114-aws-study/default/blob/master/data/AWS%20Web%20Application%203-Tier%20Architecture.pdf)
+- [AWS_certified_SolutionArchitect_associate_examSample.pdf](https://github.com/114-aws-study/main/blob/master/doc/AWS_certified_SolutionArchitect_associate_examSample.pdf)
