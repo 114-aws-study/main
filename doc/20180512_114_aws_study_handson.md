@@ -145,7 +145,7 @@ chmod +x ./install
 
 ## S3업로드
 
-[deploy001.tar.gz]('./deploy001.tar.gz')
+[deploy001.tar.gz](deploy001.tar.gz)
 
 ![051](https://gist.githubusercontent.com/yeongjun-yu/8cfbd21862f213bcdf999e837098ebb5/raw/c51c162dd32ec7b36dd4cddfcfd7faecccda548d/051.png)
 
