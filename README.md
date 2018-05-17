@@ -11,6 +11,6 @@
 - [AWS Web Application 3-Tier Architecture.pdf](https://github.com/114-aws-study/default/blob/master/data/AWS%20Web%20Application%203-Tier%20Architecture.pdf)
 
 ## 시험관련
-- [AWS_certified_SolutionArchitect_associate_examSample.pdf](https://github.com/114-aws-study/main/blob/master/doc/AWS_certified_SolutionArchitect_associate_examSample.pdf)
+- [AWS_certified_SolutionArchitect_associate_examSample.pdf](https://github.com/114-aws-study/main/blob/master/data/AWS_certified_SolutionArchitect_associate_examSample.pdf)
 
 
