@@ -6,7 +6,7 @@
 일일사 AWS스터디 핸즈온(2018-03-21) 내용을 스크린캡쳐 한 자료임.
 
 ## 핸즈온 구성도
-![구성도](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321001.png)
+![구성도](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321001.png)
 
 ## 보안 그룹 생성
 
@@ -29,20 +29,20 @@ WebAP의 EC2 인스턴스 접속은 SSH터널링/우회서버를 작성하여 RD
 
 ## 보안 그룹
 
-![EC2의 보안 그룹 메뉴](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321002.png)
-![ELB 보안 그룹 생성](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321003.png)
-![ELB 보안 그룹 생성확인/그룹ID 복사](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321004.png)
-![WebAP 보안 그룹 생성](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321005.png)
-![RDS 보안 그룹 생성](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321006.png)
+![EC2의 보안 그룹 메뉴](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321002.png)
+![ELB 보안 그룹 생성](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321003.png)
+![ELB 보안 그룹 생성확인/그룹ID 복사](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321004.png)
+![WebAP 보안 그룹 생성](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321005.png)
+![RDS 보안 그룹 생성](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321006.png)
 
 ## WebAP
 
 ### 인스턴스 시작
 
-![007](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321007.png)
+![007](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321007.png)
 
 ### 인스턴스 선택
-![008](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321008.png)
+![008](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321008.png)
 
 >아마존 리눅스 버전에 대해서
 * Amazon Linux 2017.09.1
@@ -52,10 +52,10 @@ RHEL7계열 - 현재Candidate 정식 릴리즈후 5년간 서포트
 
 ### 인스턴스 유형 선택
 
-![009](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321009.png)
+![009](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321009.png)
 
 ### 인스턴스 세부 정보 구성
-![010](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321010.png)
+![010](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321010.png)
 
 >**종료 방지 기능 활성화:**  
 인스턴스 종료(Terminate) 해도 완전삭제가 되지않고 정지(Stop)됨
@@ -68,7 +68,7 @@ T2인스턴스는 버스트 모델 채용으로 쌓아놓은 크레짓을 소모
 
 ### 고급 세부 정보
 
-![011](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321011.png)
+![011](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321011.png)
 
 ```bash
 #!/bin/bash
@@ -85,93 +85,93 @@ service nginx start
 
 ### 스토리지 추가
 
-![012](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321012.png)
+![012](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321012.png)
 
 ### 태그 추가
 
-![013](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321013.png)
+![013](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321013.png)
 
 ### 보안 그룹 구성
 
-![014](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321014.png)
+![014](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321014.png)
 
 ### 인스턴스 시작 검토
 
-![015](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321015.png)
+![015](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321015.png)
 
 ### 기존 키 페어 선택 또는 새 키 페어 생성
 
-![016](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321016.png)
+![016](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321016.png)
 
 
 ### 시작 상태
-![017](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321017.png)
+![017](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321017.png)
 
 ### 확인: 퍼블릭IP
 
-![018](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321018.png)
+![018](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321018.png)
 
 ## RDS
 
 ### 인스턴스 작성
 
-![020](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321020.png)
+![020](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321020.png)
 
 ### 엔진 선택
 
-![021](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321021.png)
+![021](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321021.png)
 
 ### DB 세부 정보 지정
 
-![022](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321022.png)
+![022](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321022.png)
 
 ### 식별자, 마스터 사용자 이름, 마스터 암호 설정후 다음단계로
 
-![023](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321023.png)
+![023](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321023.png)
 
 ### 기존 VPC 보안 그룹 사용 설정
 
-![024](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321024.png)
+![024](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321024.png)
 
 > 다중 AZ 옵션: 다른 AZ에 예비인스턴스를 구축해놓고 데이터 동기화
 [Amazon RDS 다중 AZ 배포](https://aws.amazon.com/ko/rds/details/multi-az/)
 
-![025](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321025.png)
+![025](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321025.png)
 
-![026](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321026.png)
+![026](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321026.png)
 
 ### 인스턴스 시작(생성)
 
-![027](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321027.png)
+![027](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321027.png)
 
 
-![028](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321028.png)
+![028](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321028.png)
 
 ### 생성후 인스턴스
 
-![029](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321029.png)
+![029](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321029.png)
 
 ### 인스턴스 세부 정보 확인
 
-![030](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321030.png)
+![030](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321030.png)
 
 ### 엔드포인트 확인
 
-![031](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321031.png)
+![031](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321031.png)
 
 ## 로드밸런스
 
-![032](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321032.png)
-![033](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321033.png)
-![034](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321034.png)
-![035](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321035.png)
-![036](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321036.png)
-![037](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321037.png)
-![038](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321038.png)
-![039](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321039.png)
-![040](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321040.png)
-![041](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321041.png)
-![042](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321042.png)
+![032](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321032.png)
+![033](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321033.png)
+![034](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321034.png)
+![035](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321035.png)
+![036](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321036.png)
+![037](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321037.png)
+![038](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321038.png)
+![039](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321039.png)
+![040](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321040.png)
+![041](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321041.png)
+![042](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321042.png)
 
 ## WebAP RDS
 
@@ -192,32 +192,32 @@ mysql -u handson_rds -p \
 -h handsonrds.cnxsiscwistl.ap-northeast-1.rds.amazonaws.com
 ```
 
-![019](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321019.png)
+![019](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321019.png)
 
 ## 브라우저 접속 확인
 
-![043](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321043.png)
+![043](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/58521a2327a279d8c8def9a6c5d289d95c73cb3a/20180321043.png)
 
 ### ELB CLB -> ALB 마이그레이션
 
 
 
-![044](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321044.png)
+![044](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321044.png)
 
-![045](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321045.png)
+![045](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321045.png)
 
-![046](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321046.png)
+![046](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321046.png)
 
 ALB는`로드밸런서`와`대상 그룹`으로 역할분담이 되어있음.
 
-![047](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321047.png)
+![047](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321047.png)
 
 `대상 그룹` 확인
 
-![048](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321048.png)
+![048](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321048.png)
 
 ALB의 DNS 접속확인
 
-![049](https://gist.githubusercontent.com/yeongjun-yu/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321049.png)
+![049](https://gist.githubusercontent.com/yuyj109/d41f2ac53b4d7681f89317201c5ba8dd/raw/e47184f9a35801e607317fed8c5601f5966cfdf2/20180321049.png)
 
 End.
