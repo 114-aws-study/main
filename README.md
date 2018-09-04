@@ -12,5 +12,5 @@
 
 ## 시험관련
 - [AWS_certified_SolutionArchitect_associate_examSample.pdf](https://github.com/114-aws-study/main/blob/master/data/AWS_certified_SolutionArchitect_associate_examSample.pdf)
-
+- [비공식 AWS 공인 솔루션스 아키텍트 – 어소시에이트 시험 가이드](https://github.com/serithemage/AWSCertifiedSolutionsArchitectUnofficialStudyGuide)
 
